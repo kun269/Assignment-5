@@ -13,7 +13,7 @@ Trajectories()
 
 plot_Ave_Var()
 
-Fitfunc()
+EstimatedConstants()
 
 VelocityCalculation()
 
