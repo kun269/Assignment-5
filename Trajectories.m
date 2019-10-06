@@ -9,13 +9,14 @@
 
 function Trajectories = Trajectories(A)
 
-load('A.mat')
+load('A.mat') % load input data
 
+% the following defines the positions x, y, and z as funtions of their location in the matrix A
 m = size(A);
 x = ones(m(1,1),(m(1,2)-1)/30);
 y = ones(m(1,1),(m(1,2)-1)/30);
 z = ones(m(1,1),(m(1,2)-1)/30);
-for i = 1:10
+for i = 1:10 % for trials 1-10 it separates out the position data
     x(:,i) = A(:,3*(i-1)+2);
     y(:,i) = A(:,3*(i-1)+3);
     z(:,i) = A(:,3*(i-1)+4);
