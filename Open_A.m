@@ -7,7 +7,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % load given text file as matrix
-load Assignment5Data.txt
+load Assignment5Data.txt;
 
 % assign matrix to variable A
 A = Assignment5Data;
