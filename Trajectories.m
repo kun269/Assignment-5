@@ -23,7 +23,7 @@ ylabel('Position')
 
 legend('x','y','z') % define each plot based on color
 
-% figure1(2) % plot x over time (not in main function)
+% figure(2) % plot x over time (not in main function)
 % plot(t,x)
 % title('x position vs. time')
 % xlabel('Time (s)')
