@@ -1,10 +1,12 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-Assignment 5 from Grounp Ravi
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Assignment 5 
+% Part 4
 % Jia Zhu
-% This part of codes is for plots of the average and variance of x, y,z coordicate with respect to time.
+% Programmer 2
+% This part of code is for plots of the average and variance of x, y,z coordinate with respect to time.
 % This function is used to accept input "A" and output two plots (Average and Variance of x, y, and z coordinate at each time interval). 
-% Just Use command line "Plot_Ave_Var" in the main script to call this function。
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Just Use command line "plot_Ave_Var" in the main script to call this function
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [ps] = plot_Ave_Var
 format long
