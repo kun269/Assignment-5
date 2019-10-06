@@ -9,6 +9,8 @@
 
 open Open_A.m;
 
+load A.mat
+
 run Trajectories.m
 
 run plot_Ave_Var.m
