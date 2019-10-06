@@ -6,12 +6,8 @@
 % Just Use command line "plot_Ave_Var" in the main script to call this function。
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function [ps] = plot_Ave_Var()
-% format long
-% load Assignment5Data.txt;
-% A=Assignment5Data;
-% save A
-load A.mat
+ format long
+
 m=size(A)
 % define a matrix to accept the x, y, and z coordinate separatly from the 10 tests. 
 X_value=ones(m(1,1),(m(1,2)-1)/30)
@@ -47,4 +43,3 @@ title('Variance vs. time')
 xlabel('time')
 ylabel('Variance')
 legend('x', 'y', 'z')
-end
