@@ -2,7 +2,7 @@
 function [] = Fitfunc(A)
 
 load A.mat
-%Code coppied and reused from porgrammer 2
+%Code copied and reused from programmer 2
 %--------------------------------------------------------------------------%
 format long
 m=size(A)
