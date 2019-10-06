@@ -1,19 +1,21 @@
-%%
-%ESC 597A Assignment 5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%ESC 597 Assignment 5
 % 10/6/2019
 % Authors Gerald Boddie, Mecit Altan Alioglu, Keeley Naylor, Jia Zhu
-%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Open_A()
+% This main file will call each function for the assignment and open the
+% respective plots.
 
-plot_Ave_Var 
+open Open_A.m;
 
-Fitfunc()
+run Trajectories.m
 
-VelocityCalculation()
+run plot_Ave_Var.m
 
+run Fitfunc.m
 
-
+run VelocityCalculation.m
 
 
 
