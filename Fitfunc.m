@@ -1,17 +1,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Assignment 5
-% 5.)
-% Input A and output estimated constants 
+% Part 5
 % Gerald Boddie
 % Programmer 3
+% Input A and output estimated constants 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 function [] = Fitfunc(A)
 
 load A.mat
 
-%Code coppied and reused from porgrammer 2
+% Code copied and reused from programmer 2
 %--------------------------------------------------------------------------%
 format long
 
@@ -32,7 +31,7 @@ Ave_Z=mean(Z_value,2)
 %-----------------------------------------------------------------------------%
 
 
-%Programmer 3's code begins here:
+% Programmer 3's code begins here:
 
 
 % matrix of Ave Values
@@ -47,8 +46,7 @@ xoi = Af(1,2);
 xoj = Af(1,3);
 xok = Af(1,4);
 
-%fit functions for three velocity components and acceleration (due to
-%gravity)
+% fit functions for three velocity components and acceleration (due to gravity)
 fxk = fit(Af(:,1),Af(:,4),'-0.5*g*(x^2)+Vok*x + -0.0136000');
 fxi = fit(Af(:,1),Af(:,2),'Voi*x + -0.033000');
 fxj = fit(Af(:,1),Af(:,3),'Voj*x + -0.0606000');
@@ -56,15 +54,15 @@ fxj = fit(Af(:,1),Af(:,3),'Voj*x + -0.0606000');
 cons1 = [Vok g]';
 cons1 = coeffvalues(fxk);
 
-%Estimated three initial velocity components (from fit)
+% Estimated three initial velocity components (from fit)
 Voi = coeffvalues(fxi)
 Voj = coeffvalues(fxj)
 Vok = cons1(1,1)
 
-%Estimated acceleration from gravity (from fit)
+% Estimated acceleration from gravity (from fit)
 fita = cons1(1,2)
 
-%calculation of A
+% calculation of A
 chz = (Af(72,4)- Af(1,4)); %change in position (in z direction)
 cht = (Af(72,1)- Af(1,1)); %change in time
 calca = ((chz - ( 1.761*cht))*2)/(cht^2)
