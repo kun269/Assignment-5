@@ -34,6 +34,7 @@ subplot(2,5,i)
 c = polyfit(A(:,1),V(:,i),2); %Polynomial curve fitting is applied to estimate the velocity
 
 Fline = polyval(c,A(:,1));
+    figure
     plot(A(:,1),V(:,i)) %Approximated velocity is plotted
     hold on
     plot(A(:,1),Fline,'r--','LineWidth',2) %Estimation for velocity is plotted
