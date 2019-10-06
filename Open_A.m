@@ -2,6 +2,7 @@
 % Assignment 5
 % Open A containing given .txt file
 % Keeley Naylor
+% Programmer 1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % load given text file as matrix
