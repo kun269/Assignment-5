@@ -1,5 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Assignment 5
+% Part 3
 % Open A containing given .txt file
 % Keeley Naylor
 % Programmer 1
