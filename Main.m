@@ -6,6 +6,7 @@
 
 Open_A()
 
+plot_Ave_Var 
 
 Fitfunc()
 
