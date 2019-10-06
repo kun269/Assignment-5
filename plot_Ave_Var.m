@@ -1,13 +1,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-% Assignment 5 from Group Ravi
+% Assignment 5 from Grounp Ravi
 % Jia Zhu
-% This part of code is for plots of the average and variance of x, y,z coordinate with respect to time.
+% This part of codes is for plots of the average and variance of x, y,z coordicate with respect to time.
 % This function is used to accept input "A" and output two plots (Average and Variance of x, y, and z coordinate at each time interval). 
 % Just Use command line "plot_Ave_Var" in the main script to call this function。
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
- format long
-
+function [ps] = plot_Ave_Var()
+% format long
+% load Assignment5Data.txt;
+% A=Assignment5Data;
+% save A
+load A.mat
 m=size(A)
 % define a matrix to accept the x, y, and z coordinate separatly from the 10 tests. 
 X_value=ones(m(1,1),(m(1,2)-1)/30)
@@ -30,6 +34,7 @@ Var_Y=var(Y_value,0,2)
 Var_Z=var(Z_value,0,2)
 
 % plot 2 figures 
+figure
 subplot(1,2,1)
 plot(A(:,1),Ave_X,A(:,1),Ave_Y,A(:,1),Ave_Z)
 title('Average vs. time')
@@ -43,3 +48,4 @@ title('Variance vs. time')
 xlabel('time')
 ylabel('Variance')
 legend('x', 'y', 'z')
+end
