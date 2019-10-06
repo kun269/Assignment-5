@@ -5,7 +5,7 @@ Premise:
 On a distant planet, in a galaxy far far away, a simple ballistics experiment is conducted
 in which a marble is tossed up in the planet's air and the marble's position is recorded at
 discrete time values. The experiment is repeated (identically) ten times. The data recorded
-are provided in a file with 31 comma-separated columns. Time is in the rst column and is
+are provided in a file with 31 comma-separated columns. Time is in the first column and is
 reported in seconds. Columns 3i 􀀀 1, 3i, and 3i + 1 (i = 1; : : : ; 10) report the value of the
 x, y, and z coordinates of the marble, respectively, for the i-th experiment. The coordinate
 values are expressed in meters. The coordinate system is Cartesian with its origin placed at
