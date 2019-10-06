@@ -13,7 +13,6 @@
 % This part works for the standalone code. It was removed to work in the main code.
 %}
 
-load A.mat
 
 for j=1:10
 for i=2:141
