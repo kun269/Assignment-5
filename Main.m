@@ -1,8 +1,9 @@
 %%
 %ESC 597A Assignment 5
 % 10/6/2019
-% Authors Keeley Naylor, Jia Zhu, Geral Boddie, Mecit Altan Alioglu
+% Authors Geral Boddie, Mecit Altan Alioglu, Keeley Naylor, Jia Zhu
 %%
+
 Open_A()
 
 VelocityCalculation()
