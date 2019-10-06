@@ -3,6 +3,7 @@
 % Part 3
 % Input A and output recorded trajectories
 % Keeley Naylor
+% Programmer 1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 load A.mat
