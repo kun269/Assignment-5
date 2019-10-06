@@ -1,5 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Assignment 5
+% Part 3
 % Input A and output recorded trajectories
 % Keeley Naylor
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -13,28 +14,28 @@ z = A(:,[4,7,10,13,16,19,22,25,28,31]) % z positions
 figure(1) % plot x over time
 plot(t,x)
 title('x position vs. time')
-xlabel('time (s)')
-ylabel('position')
+xlabel('Time (s)')
+ylabel('Position')
 
 figure(2) % plot y over time
 plot(t,y)
 title('y position vs. time')
-xlabel('time (s)')
-ylabel('position')
+xlabel('Time (s)')
+ylabel('Position')
 
 figure(3)  % plot z over time
 plot(t,z)
 title('z position vs. time')
-xlabel('time (s)')
-ylabel('position')
+xlabel('Time (s)')
+ylabel('Position')
 
-figure(4) %combine all position plots 
+figure(4) % combine all position plots 
 hold on
 plot(t,x)
 plot(t,y)
 plot(t,z)
 title('position vs. time')
-xlabel('time (s)')
-ylabel('position')
+xlabel('Time (s)')
+ylabel('Position')
 
-legend('x','y','z')
+legend('x','y','z') % define each plot based on color
