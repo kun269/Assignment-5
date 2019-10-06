@@ -1,6 +1,6 @@
-%% Assignment 5 from Grounp Ravi
+%% Assignment 5 from Group Ravi
 %% Written by Jia Zhu
-%% This part of codes is for plots of the average and variance of x, y,z coordicate with respect to time.
+%% This part of code is for plots of the average and variance of x, y, z coordinates with respect to time.
 %% This function is used to accept input "A" and output two plots (Average and Variance of x, y, and z coordinate at each time interval). 
 %% Just Use command line "Plot_Ave_Var" in the main script to call this function
 
