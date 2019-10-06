@@ -1,7 +1,7 @@
 # Assignment-5
 Penn State University ESC 597 - Fall 2019
 
-Premise
+Premise:
 On a distant planet, in a galaxy far far away, a simple ballistics experiment is conducted
 in which a marble is tossed up in the planet's air and the marble's position is recorded at
 discrete time values. The experiment is repeated (identically) ten times. The data recorded
@@ -13,7 +13,7 @@ the point of release of the marble. Said coordinate system is fixed on the plane
 and the z-coordinate is opposite to gravity. The recorded data is somewhat noisy.
 
 
-Assignment
+Assignment:
 Write a Matlab program to analyze the data following the steps indicated below.
 
 1. Think of your team as a team of computer programmers. Each programmer will have
@@ -56,7 +56,7 @@ as a function of time for each experiment. The function will then plot the estim
 for the speed as a functions of time.
 
 7. Each programmer in the team will contribute their work using Git. Feel free to take
-advantage of Matlab's own functions to perform the relevant calculations. Finally, the team will work together to nalize the main program.
+advantage of Matlab's own functions to perform the relevant calculations. Finally, the team will work together to finalize the main program.
 The main program will call the various functions contributed in turn so to generate
 the required outputs of each function.
 
@@ -65,5 +65,5 @@ they develop, paying attention to indicating their name on their particular cont
 bution. The annotations should allow the course instructors to generate the code
 documentation using Doxygen.
 
-9. Finally, each member of a team will submit the nal product as a zip archive uploaded
+9. Finally, each member of a team will submit the final product as a zip archive uploaded
 to CANVAS.
