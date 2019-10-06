@@ -11,13 +11,13 @@ open Open_A.m;
 
 load A.mat
 
-run Trajectories.m
+Trajectories()
 
-run plot_Ave_Var.m
+plot_Ave_Var()
 
-run Fitfunc.m
+Fitfunc()
 
-run VelocityCalculation.m
+VelocityCalculation()
 
 
 
