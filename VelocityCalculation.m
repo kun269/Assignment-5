@@ -14,6 +14,9 @@
 % This part works for the standalone code. It was removed to work in the main code.
 %}
 
+function [] = VelocityCalculation(A)
+
+load A.mat
 
 for j=1:10
 for i=2:141
@@ -47,3 +50,4 @@ legend('Approximate velocity','Estimated velocity')
 end
     
     
+end
