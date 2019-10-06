@@ -4,12 +4,15 @@
 % 6. part 
 %Written by Mecit Altan Alioglu
 %%
+
+%{
 clc
 clear all
-
 load Assignment5Data.txt
-
 A= Assignment5Data;
+% This part works for the standalone code. It was removed to work in the main code.
+%}
+
 
 for j=1:10
 for i=2:141
