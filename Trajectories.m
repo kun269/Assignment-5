@@ -31,7 +31,7 @@ plot(t,y);
 plot(t,z);
 title('position vs. time')
 xlabel('Time (s)')
-ylabel('Position')
+ylabel('Position (m)')
 legend('x','y','z') % define each plot based on color
 
 %========================================================================%
@@ -41,18 +41,18 @@ legend('x','y','z') % define each plot based on color
 % plot(t,x)
 % title('x position vs. time')
 % xlabel('Time (s)')
-% ylabel('Position')
+% ylabel('Position (m)')
 
 % figure(3) % plot y over time (not in main function)
 % plot(t,y)
 % title('y position vs. time')
 % xlabel('Time (s)')
-% ylabel('Position')
+% ylabel('Position (m)')
 
 % figure(4)  % plot z over time (not in main function)
 % plot(t,z)
 % title('z position vs. time')
 % xlabel('Time (s)')
-% ylabel('Position')
+% ylabel('Position (m)')
 
 end
