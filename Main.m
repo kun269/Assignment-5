@@ -7,7 +7,7 @@
 % This main file will call each function for the assignment and open the
 % respective plots.
 
-open Open_A.m;
+Open_A();
 
 Trajectories()
 
