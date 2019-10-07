@@ -41,8 +41,8 @@ for i=1:10
     plot(A(:,1),Fline,'r--','LineWidth',2) %Estimation for velocity is plotted
     hold off
     title(['Experiment ',num2str(i)])
-    xlabel('Time(s)')
-    ylabel('Velocity(m/s)')
+    xlabel('Time (s)')
+    ylabel('Velocity (m/s)')
     legend('Approximate velocity','Estimated velocity')
     end
     
