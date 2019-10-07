@@ -39,15 +39,15 @@ Var_Z=var(Z_value,0,2);
 % plot 2 figures 
 figure(2)
 plot(A(:,1),Ave_X,A(:,1),Ave_Y,A(:,1),Ave_Z)
-title ('Average vs. time')
-xlabel ('time')
-ylabel ('Average')
+title ('Average vs. Time')
+xlabel ('Time (s)')
+ylabel ('Averages (m)')
 legend ('x','y','z')
 
 figure(3)
 plot(A(:,1),Var_X,A(:,1),Var_Y,A(:,1),Var_Z)
-title ('Variance vs. time')
-xlabel ('time')
+title ('Variance vs. Time')
+xlabel ('Time (s)')
 ylabel ('Variance')
 legend ('x','y','z')
 end
