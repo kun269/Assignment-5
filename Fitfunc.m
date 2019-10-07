@@ -49,6 +49,7 @@ xoj = Af(1,3);
 xok = Af(1,4);
 
 % fit functions for three velocity components and acceleration (due to gravity)
+% fit function comes included in the 'Curve Fitting ToolBox', which is needed to run this function
 fxk = fit(Af(:,1),Af(:,4),'-0.5*g*(x^2)+Vok*x + -0.0136000');
 fxi = fit(Af(:,1),Af(:,2),'Voi*x + -0.033000');
 fxj = fit(Af(:,1),Af(:,3),'Voj*x + -0.0606000');
