@@ -33,6 +33,8 @@ Ave_Z=mean(Z_value,2)
 
 % Programmer 3's code begins here:
 
+% In order to run this code, one must download the fit function toolbox to
+% the machine.
 
 % matrix of Ave Values
 Af = [A(:,1) Ave_X Ave_Y Ave_Z]
